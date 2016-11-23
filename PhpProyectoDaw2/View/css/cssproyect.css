@@ -1,0 +1,172 @@
+/* Hoja de estilos proyecto 2ºDAW */
+*{
+  margin:0 auto;  
+}
+html{
+  position: relative; 
+  min-height: 100%;
+}
+body{
+  background-color: #b9def0;
+}
+.general{
+  widht: 100%;
+  height: 100%;
+}
+.d3d{
+  margin-top: 50px;
+  width: 50%;
+  text-align: center;
+  background-color: lightblue;
+}
+.medio{
+  width: 300px;
+  heigth: 500px;
+  text-align: center;
+  margin: 30px auto;
+  padding: 20px 0 40px;
+  border: 1px solid black;
+  border-radius: 20px;
+  background-color: lightblue;        
+}
+h1.login {
+  font-weight: bold;
+  font-size: 68px;
+  text-shadow: 0 1px 0 #000, 
+    0 2px 0 #000,
+    0 3px 0 #000,
+    0 4px 0 #000,
+    0 5px 0 #aaa,
+    0 6px 1px rgba(0,0,0,.1),
+    0 0 5px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 3px 5px rgba(0,0,0,.2),
+    0 5px 10px rgba(0,0,0,.25),
+    0 10px 10px rgba(0,0,0,.2),
+    0 20px 20px rgba(0,0,0,.15);
+  color: #FFF;
+  text-align: center;
+}
+/*  Diseño para width superior a 760px */
+@media (min-width: 760px){
+  ul.menu {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+
+  footer{
+    width: 100%;
+    height:42px;
+    bottom: 0;
+    position: absolute;
+    text-align: right;
+  }
+}
+/******************************************************************************/
+li a {
+  display: inline-block;
+  color: white;
+  padding: 14px 0;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+#nombreLogin{
+  float:right;
+  font-size:12px;
+  text-align:right;
+}
+table.mens{
+  margin:20px auto;
+  width:500px;
+}
+td.ref{
+  width:100px;
+  border:1px solid black;
+}
+td.contenido{
+  width:400px;
+  border:1px solid black;
+}
+div.mensajeCentrado{
+  width:500px;
+  margin-top:20px;
+  margin-right:auto;
+  text-align: justify;
+}
+div#mandarMensaje{
+  width:300px;
+  margin-top:20px;
+  margin-right:auto;
+  text-align: justify;
+}
+div.mensajePrincipal{
+  margin:20px auto;
+  text-align: center;
+}
+.centrado{
+  margin:20px 0;
+  text-align: center;
+}
+/******************************************************************************/
+/*  Cambia diseño al bajar de un tamaño de 760px */
+@media (max-width: 760px){
+  ul.menu {
+    display: -webkit-list-item;
+    display: list-item;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    text-align:center;
+  }
+  footer{
+    width: 100%;
+    height:39px;
+    bottom: -50px;
+    position: absolute;
+    text-align: right;
+  }
+}
+/******************************************************************************/
+/* SPRITE */
+#twitter, #facebook, #google, #youtube, #linkedin {
+  height:38px;
+  width:38px;
+  background-image: url("../images/sprite.png");
+  background-repeat: no-repeat;
+  border-radius:20px;
+}
+ul.fin {
+  display: -webkit-inline-flex;
+  display: inline-flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#twitter {
+  background-position: -69px -77px;
+}
+#facebook {
+  background-position: -224px -77px;
+}
+#google {
+  background-position: -328px -77px;
+}
+#youtube {
+  background-position: -328px -248px;
+}
+#linkedin {
+  background-position: -70px -248px;
+}
