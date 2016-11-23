@@ -1,13 +1,16 @@
 # ProyectoPHP-SQL
 
-![Login](./capturas/1.png)
+<p>Enlace a web <a href=http://meet2play.hol.es/View/index.php>http://meet2play.hol.es</a></p>
 
-![Registro](./capturas/2.png)
+![Login](./capturas/p1.png)
 
-![BBDD usuarios](./capturas/3.png)
 
-![Galeria](./capturas/4.png)
+![Registro](./capturas/p2.png)
 
-![Mensajes](./capturas/5.png)
+![BBDD usuarios](./capturas/p3.png)
 
-![Enviar mensaje](./capturas/6.png)
+![Galeria](./capturas/p4.png)
+
+![Mensajes](./capturas/p5.png)
+
+![Enviar mensaje](./capturas/p6.png)
