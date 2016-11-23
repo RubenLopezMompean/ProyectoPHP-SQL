@@ -1,5 +1,6 @@
 # ProyectoPHP-SQL
 
+<p>Aplicación web con la finalidad de crear un punto de encuentro con el que los jugadores puedan contactar con otros jugadores</p>
 <p>Enlace a web <a href=http://meet2play.hol.es/View/index.php>http://meet2play.hol.es</a></p>
 
 #### LOGIN
