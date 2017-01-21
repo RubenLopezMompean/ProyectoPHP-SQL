@@ -21,7 +21,7 @@ body{
 }
 .medio{
   width: 300px;
-  heigth: 500px;
+  height: auto;
   text-align: center;
   margin: 30px auto;
   padding: 20px 0 40px;
@@ -169,4 +169,7 @@ ul.fin {
 }
 #linkedin {
   background-position: -70px -248px;
+}
+.ordena{
+  cursor:pointer;
 }
